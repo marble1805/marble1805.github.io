@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Bach's Bizzare Adventure</title>
+    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c8634b933c.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    
+    <div class="nut-menu">
+        <i class="fas fa-bars icon1"></i>
+        <i class="fas fa-times icon2 andi"></i>
+    </div>
+     
+    <div class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+
+    <nav>
+        <p class="logo">Hello there</p>
+        <p class="menu m1">Home</p>
+        <p class="menu m2">About</p>
+        <p class="menu m3">Portfolio</p>
+        <p class="menu m4">Thanks</p>
+        <p class="menu m5">Contact</p>
+    </nav> 
+
+
+
+
+
+    <header>
+      <!-- The video -->
+        <video autoplay muted loop id="myVideo">
+             <source src="Video3.mp4" type="video/mp4">
+        </video>
+  
+        <!-- Optional: some overlay text to describe the video -->
+        <div class="content">
+             <h1>Welcome</h1>
+             <p>To my website</p>
+        <!-- Use a button to pause/play the video with JavaScript -->
+            <button id="myBtn" onclick="myFunction()">Pause</button>
+        </div>
+    </header>
+
+    <div class="khoi2">
+        <h4 class="tieude2">This is my web UI for the Ahand!</h4>
+
+        <p class="mota2">This theme features a flexible, UX friendly sidebar menu and photos that I made in Sem1</p>
+
+        <button class="nut nut2">What We Offer</button>
+    </div>
+
+    <div class="khoi3">
+        <p class="chuanghira">PORTFOLIO</p>
+        <h2 class="tieude tieude3">Some stuff that I made</h2>
+
+        <div class="sauanh">
+
+            <div class="anh anh1">
+                <img src="pic1.jpg" alt="" class="layer1">
+                <div class="layer2">
+                    <div class="layer3"><i class="fas fa-plus"></i></div>
+                </div>
+            </div>
+
+            <div class="anh anh2">
+                <img src="pic2.jpg" alt="" class="layer1">
+                <div class="layer2">
+                    <div class="layer3"><i class="fas fa-plus"></i></div>
+                </div>
+            </div>
+
+            <div class="anh anh1">
+                <img src="pic3.jpg" alt="" class="layer1">
+                <div class="layer2">
+                    <div class="layer3"><i class="fas fa-plus"></i></div>
+                </div>
+            </div>
+
+            <div class="anh anh2">
+                <img src="pic4.jpg" alt="" class="layer1">
+                <div class="layer2">
+                    <div class="layer3"><i class="fas fa-plus"></i></div>
+                </div>
+            </div>
+
+            <div class="anh anh3">
+                <img src="pic5.jpg" alt="" class="layer1">
+                <div class="layer2">
+                    <div class="layer3"><i class="fas fa-plus"></i></div>
+                </div>
+            </div>
+
+            <div class="anh anh4">
+                <img src="pic6.jpg" alt="" class="layer1">
+                <div class="layer2">
+                    <div class="layer3"><i class="fas fa-plus"></i></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="khoi4">
+        <h4 class="tieude2">Special thanks to <br> Mr. Dao Hoang Anh </h4>
+        <a href="https://www.facebook.com/anhdh246" class="link"><i class="fab fa-facebook"></i></a>
+    </div>
+
+    <footer class="contact text-white text-center">
+        <div class="than-ft">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h4 class="tieude-ft">LOCATION</h4>
+                        <p class="mota-ft"> Lac Long Quan
+                        <br> Bach, 180501</p>
+                    </div>
+                    <div class="col">
+                        <h4 class="tieude-ft">Contact Me</h4>
+                        <div class="icon">
+                            <a href="https://www.facebook.com/bach.huu.dang18" class="linkcontact"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/lmarblel/" class="linkcontact"><i class="fab fa-instagram"></i></a>
+                            <a href="https://github.com/marble1805" class="linkcontact"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <h4 class="tieude-ft">ABOUT THIS WEB</h4>
+                        <p class="mota-ft">Using Bootstrap, Jquery and Font Awasome 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="bottom-bar">Copyright &#169; Your Website 2020</p>
+    </footer>
+
+       <script>
+            // Get the video
+            var video = document.getElementById("myVideo");
+            
+            // Get the button
+            var btn = document.getElementById("myBtn");
+            
+            // Pause and play the video, and change the button text
+            function myFunction() {
+              if (video.paused) {
+                video.play();
+                btn.innerHTML = "Pause";
+              } else {
+                video.pause();
+                btn.innerHTML = "Play";
+              }
+            }
+            </script>   
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+    <script src="App.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
